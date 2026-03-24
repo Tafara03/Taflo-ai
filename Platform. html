@@ -1,0 +1,86 @@
+<section class="section" id="platform-overview">
+  <h3>Taflo AI Platform</h3>
+  <p>
+    The Taflo AI Platform is a unified intelligence layer for modern enterprises.
+    It connects to your systems, learns from your data, and delivers automated,
+    explainable decisions across the organisation — securely and at scale.
+  </p>
+</section>
+
+<section class="section">
+  <h3>Platform Architecture</h3>
+
+  <div class="grid">
+    <div class="card">
+      <h4>Data Layer</h4>
+      <p>Secure ingestion from CRMs, ERPs, warehouses, and internal tools.</p>
+    </div>
+
+    <div class="card">
+      <h4>Model Layer</h4>
+      <p>Foundation models, fine‑tuned models, and domain‑specific intelligence.</p>
+    </div>
+
+    <div class="card">
+      <h4>Decision Layer</h4>
+      <p>Real‑time predictions, scoring, routing, and automated workflows.</p>
+    </div>
+
+    <div class="card">
+      <h4>Experience Layer</h4>
+      <p>APIs, dashboards, assistants, and integrations for every team.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Core Capabilities</h3>
+
+  <div class="grid">
+    <div class="card">
+      <h4>Enterprise Automation</h4>
+      <p>Automate approvals, routing, classification, and operational workflows.</p>
+    </div>
+
+    <div class="card">
+      <h4>Predictive Intelligence</h4>
+      <p>Forecast demand, detect anomalies, and surface insights proactively.</p>
+    </div>
+
+    <div class="card">
+      <h4>AI Assistants</h4>
+      <p>Deploy domain‑aware assistants for support, operations, and compliance.</p>
+    </div>
+
+    <div class="card">
+      <h4>APIs & Integrations</h4>
+      <p>Connect Taflo AI to your stack with modern, secure REST APIs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Why Enterprises Choose Taflo AI</h3>
+
+  <div class="grid">
+    <div class="card">
+      <h4>Security First</h4>
+      <p>Data isolation, encryption, and enterprise‑grade access controls.</p>
+    </div>
+
+    <div class="card">
+      <h4>Explainable AI</h4>
+      <p>Transparent decisions with audit trails and human‑in‑the‑loop controls.</p>
+    </div>
+
+    <div class="card">
+      <h4>Scalable Architecture</h4>
+      <p>Built for high‑volume, mission‑critical workloads.</p>
+    </div>
+
+    <div class="card">
+      <h4>Fast Deployment</h4>
+      <p>Integrate in days, not months — with minimal engineering overhead.</p>
+    </div>
+  </div>
+</section>
