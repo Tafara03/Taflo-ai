@@ -1,0 +1,254 @@
+Nice direction—Taflo AI as an enterprise AI company feels serious, trusted, and scalable.
+
+Here’s a clean, Silicon‑Valley‑style Enterprise AI homepage you can use right away.
+
+`html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taflo AI — Enterprise Intelligence</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #ffffff;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    / Header /
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      border-bottom: 1px solid #e5e7eb;
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #2563eb;
+    }
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #374151;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    / Hero /
+    .hero {
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+      background: linear-gradient(180deg, #f3f6ff, #ffffff);
+    }
+    .hero h2 {
+      font-size: 2.7rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 640px;
+      margin: 0 auto 2rem;
+      color: #4b5563;
+    }
+    .hero .cta {
+      margin-top: 1rem;
+    }
+    .btn-primary {
+      padding: 0.8rem 1.6rem;
+      border-radius: 999px;
+      border: none;
+      background: #2563eb;
+      color: #ffffff;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+    .btn-secondary {
+      padding: 0.8rem 1.4rem;
+      border-radius: 999px;
+      border: 1px solid #d1d5db;
+      background: #ffffff;
+      color: #374151;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 0.95rem;
+      margin-left: 0.75rem;
+    }
+
+    / Sections /
+    .section {
+      max-width: 1040px;
+      margin: 3.5rem auto;
+      padding: 0 1.5rem;
+    }
+    .section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+      color: #111827;
+    }
+    .section p {
+      color: #4b5563;
+      max-width: 720px;
+    }
+
+    / Grid /
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.8rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #f9fafb;
+      padding: 1.6rem;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+      transition: 0.2s;
+    }
+    .card:hover {
+      border-color: #2563eb;
+      transform: translateY(-3px);
+    }
+    .card h4 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #111827;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+
+    / Footer /
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Taflo AI</h1>
+    <nav>
+      <a href="#platform">Platform</a>
+      <a href="#use-cases">Use Cases</a>
+      <a href="#security">Security</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Enterprise AI That Scales With Your Business</h2>
+    <p>
+      Taflo AI helps enterprises automate decisions, streamline operations, and unlock insight from data —
+      with a platform that is secure, compliant, and built for real‑world scale.
+    </p>
+    <div class="cta">
+      <button class="btn-primary">Request a Demo</button>
+      <button class="btn-secondary">Talk to Sales</button>
+    </div>
+  </section>
+
+  <section class="section" id="platform">
+    <h3>The Taflo AI Platform</h3>
+    <p>
+      A unified enterprise AI layer that connects to your existing systems, learns from your data,
+      and delivers intelligent workflows across the organisation.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>End‑to‑End Automation</h4>
+        <p>From data ingestion to decision execution, Taflo AI automates complex business processes.</p>
+      </div>
+      <div class="card">
+        <h4>Flexible Integration</h4>
+        <p>Connect to CRMs, ERPs, data warehouses, and internal tools with modern APIs.</p>
+      </div>
+      <div class="card">
+        <h4>Human in the Loop</h4>
+        <p>Review, approve, and refine AI decisions with clear controls and audit trails.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="use-cases">
+    <h3>Enterprise Use Cases</h3>
+    <p>
+      Taflo AI is designed for teams that need reliable, explainable intelligence across critical functions.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Operations</h4>
+        <p>Automate ticket routing, approvals, and workflows to reduce manual work and response times.</p>
+      </div>
+      <div class="card">
+        <h4>Risk & Compliance</h4>
+        <p>Detect anomalies, flag high‑risk activity, and support compliance reviews with AI‑driven insights.</p>
+      </div>
+      <div class="card">
+        <h4>Customer Experience</h4>
+        <p>Power intelligent support, personalised responses, and self‑service experiences at scale.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="security">
+    <h3>Security & Trust</h3>
+    <p>
+      Enterprise‑grade security is built into Taflo AI from day one — so you can deploy AI with confidence.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Data Privacy</h4>
+        <p>Your data stays under your control, with strict access policies and isolation.</p>
+      </div>
+      <div class="card">
+        <h4>Governance</h4>
+        <p>Role‑based access, logging, and policy controls for regulated environments.</p>
+      </div>
+      <div class="card">
+        <h4>Reliability</h4>
+        <p>Built for high availability and performance across mission‑critical workloads.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact the Taflo AI Team</h3>
+    <p>Email: enterprise@taflo.ai</p>
+    <p>LinkedIn: Taflo AI</p>
+  </section>
+
+  <footer>
+    © 2026 Taflo AI — Enterprise Intelligence, Delivered
+  </footer>
+
+</body>
+</html>
+`
+
+If you tell me where you’ll host this (GitHub Pages, simple hosting, school server, etc.), I can give you the exact next steps to put it online.
